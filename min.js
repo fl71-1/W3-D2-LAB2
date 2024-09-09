@@ -46,3 +46,45 @@ let fruits = ['apple', 'banana', 'cherry', 'date', 'elephant', 'bird', 'lion'];
 let hasB = fruits.some(fruit => fruit.startsWith('b'));
 
 console.log("name  with 'b'?", hasB);
+ 
+
+
+
+
+//function
+
+
+
+
+function name1(num1, num2) {
+    return num1 * num2;
+  }
+  
+  console.log(name1(2, 3));
+
+  function name2(num1, num2) {
+    return num1 / num2;
+  }
+  
+  console.log(name2(2, 3));
+
+
+
+  function name3(num1, num2) {
+    return num1 + num2;
+  }
+  
+  console.log(name3(2, 3));
+
+
+  function name4(num1, num2) {
+    return num1 - num2;
+  }
+  
+  console.log(name4(2, 3));
+
+  function name5(num1, num2) {
+    return num1 % num2;
+  }
+  
+  console.log(name5(2, 3));
